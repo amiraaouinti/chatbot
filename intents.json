@@ -1,0 +1,31 @@
+{"intents":[
+    {"tag":"greeting",
+    "patterns":["bonjour", "bnj", "hello", "hi", "hey", "salut", "bonsoir", "good morning", "good evening", "salem", "slm", "sbeh el khir", "hola"],
+    "responses":["Bonjour", "Bonjour, comment je peux vous aider ?", "Bonjour, ça me fait plaisir de vous parler", "Bonjour, vous avez besoin d'aide ?", "Que puis-je faire pour vous ?"],
+    "context_set":"" },
+    {"tag":"goodbye",
+    "patterns":["bye", "au revoir","bonne nuit", "good bye", "ciao", "arrête", "stop"],
+    "responses":["Au revoir", "A la prochaine", "See you soon", "Bonne journée", "Good bye", "Talk to you later"],
+    "context_set":"" },
+            
+    {"tag":"name",
+    "patterns":["Qui êtes vous ?", "qui est votre propriétaire ?", "pourquoi t'es là ?", "Qui est votre père ?"],
+    "responses":["Je suis votre assistant Ilboursa bot", "Je suis le fils de Ismail Ben Sassi", "Je suis là pour vous aider, il suffit de me dire ce que vous voulez"],
+    "context_set":"" },
+    
+    {"tag":"business",
+    "patterns":["c'est quoi ilboursa.com ?", "votre source d'informations est-elle fiable ?", "c'est quoi l'objectif de votre site ?" ],
+    "responses":["Ilboursa.com est le premier portail boursier de nouvelle génération en Tunisie. Ce site est dédié à l’actualité économique, financière et boursière en Tunisie.", "L’objectif du site est de développer la culture boursière et économique en Tunisie et de contribuer au renforcement de la visibilité de la Bourse de Tunis pour y attirer de nouveaux investisseurs.", "Le maître mot de Ilboursa est la garantie d’une information fiable, de qualité, instantanée et en continu. "],
+    "context_set":"" },
+    
+    {"tag":"article",
+    "patterns":["je veux lire tous les articles", "je veux plus d'informations"],
+    "responses":["Vous pouvez consulter notre site web www.ilboursa.com"],
+    "context_set":"" }
+        
+    
+    
+    
+    
+    
+]}
